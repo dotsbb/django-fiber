@@ -1,0 +1,264 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-05 15:09+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2)\n"
+
+#: .\admin.py:32 .\admin.py:48
+msgid "Advanced options"
+msgstr "Opcje zaawansowane"
+
+#: .\admin.py:62
+msgid "View on site"
+msgstr "Zobacz na stronie"
+
+#: .\admin.py:74
+msgid "Move up"
+msgstr "Przenieś na górę"
+
+#: .\admin.py:79
+msgid "Move down"
+msgstr "Przenieś w dół"
+
+#: .\admin.py:85
+msgid "Add sub page"
+msgstr "Dodaj podstronę"
+
+#: .\admin.py:89
+msgid "Actions"
+msgstr "Akcje"
+
+#: .\admin_forms.py:20
+msgid "Redirect page"
+msgstr "Przekierowanie"
+
+#: .\admin_forms.py:28
+msgid "Template"
+msgstr "Szablon"
+
+#: .\admin_forms.py:40
+msgid "A named url can't be combined with a redirect page"
+msgstr ""
+
+#: .\admin_views.py:25
+msgid "This account is inactive."
+msgstr "To konto jest nieaktywne."
+
+#: .\admin_views.py:30
+msgid ""
+"Please enter a correct username and password. Note that both fields are case-"
+"sensitive."
+msgstr "Proszę podać poprawny login i hasło."
+
+#: .\managers.py:41
+msgid "used more than once"
+msgstr "użyty więcej niż raz"
+
+#: .\managers.py:42
+msgid "unused"
+msgstr "nieużywany"
+
+#: .\managers.py:43
+msgid "used once"
+msgstr "użyty raz"
+
+#: .\managers.py:44
+msgid "recently changed"
+msgstr "niedawno zmieniony"
+
+#: .\models.py:21 .\models.py:73 .\models.py:222 .\models.py:248
+msgid "created"
+msgstr "stworzony"
+
+#: .\models.py:22 .\models.py:74 .\models.py:223 .\models.py:249
+msgid "updated"
+msgstr "aktualizowany"
+
+#: .\models.py:23
+msgid "name"
+msgstr "nazwa"
+
+#: .\models.py:24 .\models.py:25 .\templates\fiber\admin.html.py:26
+msgid "Content"
+msgstr "Zawartość"
+
+#: .\models.py:26 .\models.py:85
+msgid "protected"
+msgstr "zabezpieczony"
+
+#: .\models.py:27
+msgid "metadata"
+msgstr "meta-dane"
+
+#: .\models.py:28 .\models.py:82
+msgid "template name"
+msgstr "nazwa szablonu"
+
+#: .\models.py:29
+msgid "used on pages"
+msgstr "używany na stronach"
+
+#: .\models.py:34 .\models.py:209
+msgid "content item"
+msgstr "element zawartości"
+
+#: .\models.py:35 .\models.py:86
+msgid "content items"
+msgstr "elementy zawartości"
+
+#: .\models.py:44
+msgid "[ EMPTY ]"
+msgstr "[ PUSTY ]"
+
+#: .\models.py:75
+msgid "parent"
+msgstr "rodzic"
+
+#: .\models.py:77 .\models.py:225 .\models.py:251
+msgid "title"
+msgstr "nazwa"
+
+#: .\models.py:79
+msgid "redirect page"
+msgstr "przekierowanie"
+
+#: .\models.py:80
+msgid "mark current regexes"
+msgstr ""
+
+#: .\models.py:83
+msgid "show in menu"
+msgstr "pokaż w menu"
+
+#: .\models.py:84
+msgid "is public"
+msgstr "publiczne"
+
+#: .\models.py:93 .\models.py:210
+msgid "page"
+msgstr ""
+
+#: .\models.py:94
+msgid "pages"
+msgstr "strona"
+
+#: .\models.py:211
+msgid "block name"
+msgstr "nazwa bloku"
+
+#: .\models.py:212
+msgid "sort"
+msgstr "sortuj"
+
+#: .\models.py:224 .\models.py:230
+msgid "image"
+msgstr "onrazek"
+
+#: .\models.py:226
+msgid "width"
+msgstr "szerkość"
+
+#: .\models.py:227
+msgid "height"
+msgstr "wysokość"
+
+#: .\models.py:231
+msgid "images"
+msgstr "obrazki"
+
+#: .\models.py:250 .\models.py:254
+msgid "file"
+msgstr "plik"
+
+#: .\models.py:255
+msgid "files"
+msgstr "pliki"
+
+#: .\templates\fiber\admin.html.py:9
+msgid "Log out"
+msgstr "Wyloguj"
+
+#: .\templates\fiber\admin.html.py:10
+msgid "Backend"
+msgstr "Panel administracyjny"
+
+#: .\templates\fiber\admin.html.py:13
+msgid "Pages"
+msgstr "Strony"
+
+#: .\utils\date.py:34
+msgid "just now"
+msgstr "dopiero co"
+
+#: .\utils\date.py:36
+#, python-format
+msgid "%s seconds ago"
+msgstr "% sek. temu"
+
+#: .\utils\date.py:40
+#, python-format
+msgid "%s minutes ago"
+msgstr "%s min. temu"
+
+#: .\utils\date.py:42
+msgid "an hour ago"
+msgstr "godzinę temu"
+
+#: .\utils\date.py:44
+#, python-format
+msgid "%s hours ago"
+msgstr "%sh temu"
+
+#: .\utils\date.py:46
+msgid "yesterday"
+msgstr "wczoraj"
+
+#: .\utils\date.py:48
+#, python-format
+msgid "%s days ago"
+msgstr "%s dni temu"
+
+#: .\utils\date.py:50
+msgid "a week ago"
+msgstr "tydzień temu"
+
+#: .\utils\date.py:52
+#, python-format
+msgid "%s weeks ago"
+msgstr "%s tygodnie temu"
+
+#: .\utils\date.py:54
+#, python-format
+msgid "%s months ago"
+msgstr "%s miesięcy temu"
+
+#: .\utils\date.py:55
+#, python-format
+msgid "%s years ago"
+msgstr "%s lata temu"
+
+#: .\utils\fields.py:13
+msgid "URL"
+msgstr "URL"
+
+#: .\utils\form_fields.py:10
+msgid "Example: '/section-1/products' or 'products' or '\"some_named_url\"'"
+msgstr "Na przykład: '/kontakt/biuro_wroclaw' albo 'produkty'"
+
+#: .\utils\validators.py:27
+msgid "No reverse match found for the named url"
+msgstr "Nie znaleziono odpowiedniej strony dla podanego adresu URL"
